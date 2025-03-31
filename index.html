@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastFoods</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    </head>
+<body>
+    <header class="header">
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>FoodiezzBunk.</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+    <!--search form-->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search">
+
+        </label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class=" swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Spicy noodles</h3>
+                        <p>For those who love bold flavors, our spicy noodles are a must-try. Tossed in rich, aromatic sauces and packed with fiery spices, 
+                            they offer the perfect balance of heat and taste. The combination of crunchy vegetables and tender proteins adds a delightful texture, 
+                            making every bite an explosion of flavor.
+                             Whether enjoyed on their own or paired with a side, these noodles are the perfect dish for spice lovers.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="noodles.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Fried Chicken</h3>
+                        <p>Our fried chicken is the ultimate crispy treat, seasoned to perfection and fried to a golden crunch. 
+                            Juicy on the inside and crunchy on the outside, every bite bursts with delicious flavors. Served hot and fresh, it pairs perfectly with dips and sides for a mouthwatering experience.
+                             Whether you prefer it spicy or classic, our fried chicken is an irresistible favorite for all.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="friedchicken.webp" alt="">
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Hot Pizza</h3>
+                        <p>Our hot pizza is a cheesy, flavorful delight with a perfectly crispy golden crust.
+                             Loaded with rich toppings and aromatic sauces, every bite melts in your mouth with the perfect blend of cheese, herbs, and spices. 
+                             Baked to perfection and served fresh, it’s the ultimate comfort food for every pizza lover. 
+                            Whether you enjoy classic flavors or adventurous toppings, our pizza guarantees satisfaction in every slice.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="hotPizza.avif" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+<!--dishes section-->
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading">Our dishes</h3>
+    <h1 class="heading">Popular dishes</h1>
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="burger.jpg" alt="Burger">
+            <h3>Burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$14.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="fries.webp" alt="fries">
+            <h3>French Fries</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$10.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="lollipop.jpg" alt="lollipop">
+            <h3>Chicken Lollipop</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$13.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="vegfish.webp" alt="vegfish">
+            <h3>VegFish</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$9.49</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="mushroom.webp" alt="mushroom">
+            <h3>Masala Mushroom</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$12.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="icecream.webp" alt="icecream">
+            <h3>Creamy Ice</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$6.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+
+
+<!--about section-->
+<section class="about" id="about">
+    <h3 class="sub-heading">about us</h3>
+    <h1 class="heading">Why choose us?</h1>
+    <div class="row">
+        <div class="image">
+            <img src="paneer.jpg"alt="image">
+        </div>
+        <div class="content">
+            <h3>Best food in the Country</h3>
+            <p>Our restaurant is dedicated to serving authentic and flavorful dishes made with the freshest ingredients. 
+                 We offer a diverse menu that includes refreshing mocktails like Orange and Berry, along with indulgent desserts such as Blueberry Ice Cream and Choco Vanilla.</p>
+
+                <p>We maintain strict hygiene and quality standards, ensuring that every dish is prepared with care.
+                 Our cozy ambiance and friendly service create the perfect dining experience for families, friends, and special occasions.</p>
+                
+                <p>At our restaurant, customer satisfaction is our priority, and we strive to provide exceptional service with every meal.
+                 Whether you’re here for a quick meal or a grand celebration, we promise an unforgettable dining experience. Choose us for delicious food, refreshing beverages, and a warm, welcoming atmosphere!</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Free Delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Easy Payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+<!--menu section -->
+<section class="menu" id="menu">
+    <h3 class="sub-heading">Our Menu</h3>
+    <h1 class="heading">Today's Speciality</h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="gongurachicken.jpg" alt="img1">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Gongura Chicken</h3>
+                <p>A spicy and tangy Andhra-style chicken curry made with gongura (sorrel) leaves, giving it a unique sour flavor.</p>
+                <span class="price">$12.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="egg burji.jpg" alt="img2">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Egg Burji</h3>
+                <p> A flavorful Indian-style scrambled eggs dish cooked with onions, tomatoes, and aromatic spices.</p>
+                <span class="price">$10.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="rice.webp" alt="img3">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Biriyani</h3>
+                <p>A fragrant and richly spiced rice dish layered with marinated meat or vegetables, cooked to perfection.</p>
+                <span class="price">$16.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="paneer1.jpg" alt="img2">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Paneer Butter</h3>
+                <p> A creamy and mildly spiced North Indian curry with soft paneer cubes in a buttery tomato-based gravy.</p>
+                <span class="price">$11.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="fish.jpg" alt="img4">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Fish</h3>
+                <p>A delicious seafood delicacy made with fish cooked in a spicy and tangy coconut or tomato-based gravy.</p>
+                <span class="price">$12.39</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="mutton.jpg" alt="img5">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Mutton</h3>
+                <p>A rich and aromatic curry made with tender mutton pieces slow-cooked in a blend of spices.</p>
+                <span class="price">$14.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="cake1.jpg" alt="img6">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Choco Vanilla</h3>
+                <p>A classic dessert or ice cream combining the richness of chocolate with the smoothness of vanilla.</p>
+                <span class="price">$8.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="drink.jpg" alt="img7">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Orange Mocktail</h3>
+                <p> A refreshing non-alcoholic citrus drink bursting with the tangy sweetness of fresh oranges.</p>
+                <span class="price">$6.59</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="icecream3.jpg" alt="img8">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>BlueBerry</h3>
+                <p>A vibrant and fruity mocktail infused with mixed berries, offering a refreshing and tangy taste.</p>
+                <span class="price">$7.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="image">
+                <img src="cake2.jpg" alt="img9">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Butterscotch</h3>
+                <p>A creamy and luscious frozen treat made with real blueberries for a naturally sweet and tart flavor.
+                </p>
+                <span class="price">$11.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="drink2.jpg" alt="img9">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Berry Mocktail</h3>
+                <p>A caramelized, nutty-flavored dessert or ice cream with crunchy butterscotch bits for extra texture.</p>
+                <span class="price">$10.99</span>
+                <a href="#" class="btn">add to cart</a>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--review section-->
+<section class="review" id="review">
+    <h3 class="sub-heading">Customer's Review</h3>
+    <h1 class="heading">What they say</h1>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="customer.jpg" alt="pic1">
+                    <div class="user-info">
+                        <h3>John Deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"The biryani was absolutely flavorful with perfectly cooked rice and tender meat.
+                     The Gongura Chicken had a tangy twist that I loved! Service was quick, and the ambiance was cozy."</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="customer.jpg" alt="pic2">
+                    <div class="user-info">
+                        <h3>Vikram</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"I tried the Paneer Butter Masala, and it was creamy and rich with just the right balance of spices.
+                     The Butterscotch dessert was a delightful treat. Would definitely come back!"</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="customer.jpg" alt="pic3">
+                    <div class="user-info">
+                        <h3>Sneha</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"The fish curry was fresh and packed with spices, just like homemade coastal flavors.
+                     The Orange Mocktail was refreshing and complemented the meal well. Great experience overall!"</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="customer.jpg" alt="pic4">
+                    <div class="user-info">
+                        <h3>Aisha</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Mutton curry was perfectly cooked, so tender and full of flavors! The Egg Bhurji was spicy and delicious, just the way I like it.
+                     The staff was friendly and attentive." </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="customer.jpg" alt="pic5">
+                    <div class="user-info">
+                        <h3>Priya</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Blueberry ice cream was a fantastic end to the meal, so creamy and fresh. The Berry Mocktail was refreshing,
+                     and the biryani was one of the best I’ve had. Highly recommend this place!" </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="customer.jpg" alt="pic6">
+                    <div class="user-info">
+                        <h3>Anil</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"The Gongura Chicken had an amazing balance of spice and tanginess—so unique and delicious!
+                     The Butterscotch ice cream was the perfect way to end the meal. Loved the ambiance too!" </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="customer.jpg" alt="pic7">
+                    <div class="user-info">
+                        <h3>Arjun</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Biryani was full of flavors with tender meat, and the aroma was irresistible. 
+                    The Choco Vanilla dessert was rich and creamy—just heavenly! Service was quick and polite."</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="customer.jpg" alt="pic8">
+                    <div class="user-info">
+                        <h3>Rohan</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"The Paneer Butter Masala was smooth and buttery with a perfect blend of spices.
+                     The Orange Mocktail was super refreshing and paired well with my meal. Will definitely visit again!"</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!--order section-->
+<section class="order" id="order">
+    <h3 class="sub-heading">Order now</h3>
+    <h1 class="heading">Free and Fast</h1>
+    <form action="">
+        <div class="inputBox">
+            <div class="input">
+                <span>Your name</span>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input">
+                <span>Your number</span>
+                <input type="number" placeholder="Enter your number">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Your order</span>
+                <input type="text" placeholder="Enter food name">
+            </div>
+            <div class="input">
+                <span>Additioonal food</span>
+                <input type="test" placeholder="extra with food">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>How much</span>
+                <input type="number" placeholder="how many orders">
+            </div>
+            <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Your Address</span>
+                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Your Message</span>
+                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <input type="submit" value="order now" class="btn">
+    </form>
+</section>
+
+<!--footer section-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="#">India</a>
+            <a href="#">Japan</a>
+            <a href="#">Russia</a>
+            <a href="#">USA</a>
+            <a href="#">France</a>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Dishes</a>
+            <a href="#">About</a>
+            <a href="#">review</a>
+            <a href="#">Order</a>
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#">+919876543210</a>
+            <a href="#">+918765432109</a>
+            <a href="#">janu@gmail.com</a>
+            <a href="#">jahnavi@gmail.com</a>
+            <a href="#">Tirupati, India-517102</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Youtube</a>
+            
+        </div>
+    </div>
+    <div class="credit">copyright @2025 by <span>web developer</span></div>
+</section>
+<!--loader part-->
+<!--
+<div class="loader-container">
+    <img src="loading gif.webp" alt="loader">
+</div>
+
+-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
